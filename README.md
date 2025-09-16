@@ -56,4 +56,5 @@
   cars_models = ['Mazda RX4 Wag',
                 'Ford Pantera L',
                 'Honda Civic']
+  
   cars.loc[cars['Model'].isin(cars_models), ['Model', 'cyl', 'gear']] # .isin is used to filter the DataFrame for these specific models
