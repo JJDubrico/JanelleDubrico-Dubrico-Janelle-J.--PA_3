@@ -14,11 +14,13 @@
  **b.1) Using the .head(), display the first five rows**
  
  print("First five rows of the DataFrame:")
+ 
  cars.head()
 
  **b.2) Using the .tail(), display the last five rows**
  
  print("Last five rows of the DataFrame:")
+ 
  cars.tail()
 
 
