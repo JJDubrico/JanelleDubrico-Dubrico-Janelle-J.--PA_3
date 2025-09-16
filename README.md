@@ -24,7 +24,7 @@
 
 # PROBLEM 2
 
-  *To open the Pandas library, use the import convention:**
+  **To open the Pandas library, use the import convention:**
   
   import pandas as pd
 
