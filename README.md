@@ -9,6 +9,7 @@
   **a.) To read the file, use the pd.read_csv function:**
   
   cars = pd.read_csv('cars.csv') # Load the CSV file into a DataFrame
+  
   cars
 
  **b.1) Using the .head(), display the first five rows**
@@ -33,6 +34,7 @@
   **To read the file, use the pd.read_csv function:**
   
   cars = pd.read_csv('cars.csv') # load the CSV file into a DataFrame
+  
   cars
 
   **a.) Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.**
