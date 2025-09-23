@@ -48,3 +48,5 @@
                 'Honda Civic'] # Makes a list of the car models
   
   cars.loc[cars['Model'].isin(cars_models), ['Model', 'cyl', 'gear']] # .isin is used to filter the DataFrame for these specific models
+
+  --VERSION 2--
