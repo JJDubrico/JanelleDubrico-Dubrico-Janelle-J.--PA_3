@@ -2,7 +2,7 @@
 
 # PROBLEM 1
 
-  **Using the dataframe cars, load the .csv file using pandas and it must display the first and last five rows of the resulting cars**
+  **Using the dataframe cars, load the .csv file using pandas and it must display the first and last five rows of the resulting cars.**
   
     import pandas as pd # Imports Pandas Library
 
@@ -20,7 +20,7 @@
 
 # PROBLEM 2
 
- **Using the dataframe cars in the previous problem, it must extract the following information using subsetting, splicing, and indexing**
+ **Using the dataframe cars in the previous problem, it must extract the following information using subsetting, splicing, and indexing operations.**
   
     import pandas as pd # Imports Pandas Library
     cars = pd.read_csv('cars.csv') # Load the CSV file into a DataFrame
@@ -36,7 +36,7 @@
 
   **c.) Determine how many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?**
   
-    cars.loc[cars['Model']=='Camaro Z28', ['Model', 'cyl']] # locates the value with Camaro Z28 as the Model and displays the columns Model cyl
+    cars.loc[cars['Model']=='Camaro Z28', ['Model', 'cyl']] # locates the value with Camaro Z28 as the Model and displays the columns Model and cyl
 
   **d.) Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.**
   
